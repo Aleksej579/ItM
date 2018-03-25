@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title ItM
+        link(href="css/main.css" type="text/css" rel="stylesheet")
+        script(type="text/javascript" src="js/main.js")
+        script(type="text/javascript" src="js/jquery.min.js")
+
+    body
+        section.pageOne#pageOne
+            div.pageOneBg 
+                div.wrapMainText 
+                    p.vebinar БЕСПЛАТНЫЙ онлайн-вебинар
+                    p.output ЕВРЕЙСКАЯ ЭМИГРАЦИЯ
+                    p.output в ГЕРМАНИЮ
+                    p.question Вопросы руководителю русскоязычного общества Германии
+                    p.data 25 сентября / четверг / 19-00 
+                        span.kiev (киевское)
+
+                div.container
+                    ul.flip.minutePlay
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 8
+                                div.down
+                                    div.shadow
+                                    div.inn 8
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 7
+                                div.down
+                                    div.shadow
+                                    div.inn 7
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 6
+                                div.down
+                                    div.shadow
+                                    div.inn 6
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 5
+                                div.down
+                                    div.shadow
+                                    div.inn 5
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 4
+                                div.down
+                                    div.shadow
+                                    div.inn 4
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 3
+                                div.down
+                                    div.shadow
+                                    div.inn 3
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 2
+                                div.down
+                                    div.shadow
+                                    div.inn 2
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 1
+                                div.down
+                                    div.shadow
+                                    div.inn 1
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 0
+                                div.down
+                                    div.shadow
+                                    div.inn 0
+
+                    ul.flip.secondPlay
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 9
+                                div.down
+                                    div.shadow
+                                    div.inn 9
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 8
+                                div.down
+                                    div.shadow
+                                    div.inn 8
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 7
+                                div.down
+                                    div.shadow
+                                    div.inn 7
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 6
+                                div.down
+                                    div.shadow
+                                    div.inn 6
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 5
+                                div.down
+                                    div.shadow
+                                    div.inn 5
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 4
+                                div.down
+                                    div.shadow
+                                    div.inn 4
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 3
+                                div.down
+                                    div.shadow
+                                    div.inn 3
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 2
+                                div.down
+                                    div.shadow
+                                    div.inn 2
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 1
+                                div.down
+                                    div.shadow
+                                    div.inn 1
+                        li
+                            a(href="#")
+                                div.up
+                                    div.shadow
+                                    div.inn 0
+                                div.down
+                                    div.shadow
+                                    div.inn 0
+                                    
+                    div.p
+                        p мест
+                        p осталось
+
+
+                div.wrapBtn
+                    div#btn_signIn.btn_signIn ЗАРЕГИСТРИРОВАТЬСЯ
+                    script.
+                        var btn = document.querySelector('#btn_signIn');
+                        btn.onclick = function(){
+                            alert('test');
+                        };
+
+                    p Запись предоставляется бесплатно только зарегестрированным участникам
+                    div#arroww.arrow
+                        script.
+                            $('#arroww').click(function(){
+                                var destination = $("#two").offset().top;
+                                $('html').animate({ scrollTop: destination }, 2100);
+                                return false; 
+                            });
+        section#two.pageTwo
+            div.footerLeft 
+                div.footerContentLeft_ICDP
+                    p ICDP
+                div.footerContentLeftList  
+                    p International
+                    p Center of
+                    p Documents
+                    p Preparation
+                div.footerContentLeft_orgVeb
+                    p ОРГАНИЗАТОРЫ
+                    p ВЕБИНАРА
+            div.footerRight 
+                div.footerContentRight_Logo
+                    p N  
+                div.footerContentRight  
+                    div.footerContentRight_top  
+                        p ВЕДУЩИЙ ВЕБИНАРА
+                    div.footerContentRight_bot  
+                        p Председатель крупнейшего русскоязычного
+                        p общества Германии "Neue Zeiten e.V."

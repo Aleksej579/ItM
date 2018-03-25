@@ -1,0 +1,298 @@
+*
+    margin 0
+    padding 0
+
+@import "fonts/fonts";
+@import "modules/count";
+
+.pageOne 
+    height 100vh
+    width 100vw
+    background-color #2a4d87
+    background url('../images/bg.png') no-repeat center center
+    background-size cover 
+
+.pageOneBg 
+    width 100%
+    height 100%
+    background rgba(42,77,135,0.8)
+
+.wrapMainText 
+    /*border 1px solid red*/
+    height 425px
+    width 800px
+    font-family 'Roboto-Bold'
+    float left
+    margin 150px 0 0 150px
+
+@media screen and (min-width:1280px) and (max-width:1919px)
+	.wrapMainText
+        margin 50px 0 0 50px
+
+@media screen and (min-width:1024px) and (max-width:1279px)
+	.wrapMainText
+        margin 25px 0 0 25px
+        height 300px
+        width 600px
+
+@media screen and (min-width:320px) and (max-width:800px)
+	.wrapMainText
+        margin 5px 0 0 5px
+        height 500px
+        width 100%
+
+.vebinar
+    font-size 50px
+    color white
+.output
+    font-size 50px
+    color #f0e353
+.question
+    font-size 25px
+    color white
+.data
+    border-left 8px solid #f0e353
+    font-size 45px
+    color white
+    margin-top 50px
+.kiev
+    font-size 16px
+
+@media screen and (min-width:1024px) and (max-width:1279px)
+    .vebinar
+        font-size 35px 
+    .output
+        font-size 35px
+    .question
+        font-size 22px
+    .data
+        font-size 32px
+    .kiev
+        font-size 18px
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .vebinar
+        font-size 15px 
+    .output
+        font-size 15px
+    .question
+        font-size 11px
+    .data
+        font-size 15px
+        margin-top 25px
+        border-left 4px solid #f0e353
+        padding-left 5px
+    .kiev
+        font-size 9px
+
+.wrapBtn 
+    height 285px
+    width 100%
+    z-index 1000
+    position absolute
+    bottom 0px
+
+@media screen and (min-width:1280px) and (max-width:1919px)
+    .wrapBtn
+        height 200px
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .btn_signIn
+        height 100px
+    
+.btn_signIn
+    height 95px
+    width 790px
+    border 2px solid #f0e353
+    color #f0e353
+    font-family 'Roboto-Medium'
+    font-size 35px
+    text-align center
+    line-height 95px
+    cursor pointer
+    margin auto
+.btn_signIn:hover
+    background-color #f0e353
+    color white
+    border 2px solid white
+    transition: 0.3s linear;
+
+@media screen and (min-width:1280px) and (max-width:1919px)
+    .btn_signIn
+        height 65px
+        width 490px
+        line-height 65px
+        font-size 25px
+
+@media screen and (min-width:1024px) and (max-width:1279px)
+    .btn_signIn
+        height 65px
+        width 490px
+        line-height 65px
+        font-size 25px
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .btn_signIn
+        height 32px
+        width 240px
+        line-height 32px
+        font-size 12px
+        
+.wrapBtn > p
+    color white
+    font-size 16px
+    text-align center
+    margin-top 30px
+    font-family 'Roboto-Thin'
+
+@media screen and (min-width:1280px) and (max-width:1919px)
+    .wrapBtn > p
+        margin-top 10px
+        font-size 14px
+
+@media screen and (min-width:1024px) and (max-width:1279px)
+    .wrapBtn > p
+        font-size 14px
+        margin-top 15px
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .wrapBtn > p
+        font-size 10px
+        margin-top 10px
+
+@keyframes anim
+    0% 
+        top 0
+    100% 
+        top 50px
+
+@keyframes anim_2
+    0% 
+        top 0
+    100% 
+        top 25px
+
+.arrow 
+    height 65px
+    width 65px
+    border-left 1px solid white
+    border-bottom 1px solid white
+    position relative
+    margin auto
+    transform rotateZ(-45deg)
+    cursor pointer
+    animation: anim 2s ease-in-out 0s infinite
+
+@media screen and (min-width:1280px) and (max-width:1919px)
+    .arrow 
+        height 50px
+        width 50px
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .arrow 
+        height 25px
+        width 25px
+        animation: anim_2 2s ease-in-out 0s infinite
+
+
+#arrowToo
+    height 65px
+    width 65px
+    border 1px solid red
+
+.pageTwo
+    height 375px
+    width 100vw
+    background-color #55719f
+    border-top 1px solid white 
+    color white 
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .pageTwo
+        height 150px
+        width 100%
+
+.footerLeft 
+    height 100%
+    width 50%
+    border-right  1px solid white
+    float left
+    color white
+    display flex
+    flex-direction row
+    justify-content center
+    align-items center
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .footerLeft 
+        width 25%
+
+.footerContentLeft_ICDP
+    font-size 70px
+    font-family 'HelveticaNeueCyr-Black'
+    margin-right 15px
+
+.footerContentLeftList 
+    border-left 1px solid white
+    padding-left 15px
+    font-size 9px
+
+.footerContentLeft_orgVeb 
+    margin-left 50px
+    font-size 25px
+    font-family 'Roboto-Regular'
+
+@media screen and (min-width:1024px) and (max-width:1279px)
+    .footerContentLeft_ICDP
+        font-size 60px
+        font-family 'HelveticaNeueCyr-Black'
+        margin-right 10px
+    .footerContentLeftList 
+        padding-left 10px
+        font-size 10px
+    .footerContentLeft_orgVeb 
+        margin-left 30px
+        font-size 25px
+
+@media screen and (min-width:320px) and (max-width:800px)
+    .footerContentLeft_ICDP
+        font-size 30px
+        margin-right 5px
+    .footerContentLeftList 
+        padding-left 5px
+        font-size 5px
+    .footerContentLeft_orgVeb 
+        margin-left 15px
+        font-size 12px
+
+.footerRight 
+    height 100%
+    width 40%
+    display flex
+    flex-direction row
+    justify-content center
+    align-items center
+.footerContentRight_Logo
+    height 68px
+    width 68px
+    border-radius 34px
+    border 3px solid white
+    color white
+    font-size 55px
+    text-align center 
+    line-height 68px
+    font-family 'HelveticaNeueCyr-Black'
+    margin-right 50px
+.footerContentRight_Logo > p
+    transform: rotateZ(45deg);
+.footerContentRight_top 
+    border-bottom 2px solid white
+    font-size 25px
+    font-family 'Roboto-Regular'
+.footerContentRight_bot 
+    font-size 16px
+    font-family 'Roboto-Light'
+
+
+
+
